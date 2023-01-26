@@ -20,7 +20,23 @@
     </header>
 
     
-    <main class= "col-sm-4">5 Day Forecast</main>
+    <main>
+        <div class="jumbotron vh-100">
+            <h3 class="card-header text-uppercase text-center py-1">5 Day Weather Forecast</h3>
+            <p id="current-weather" class="row card align-items-center justify-content-center justify-content-around border-0 mb-1"></p>
+            <p id="current-city" class="row card align-items-center justify-content-center justify-content-around"></p>
+            <div class="row justify-content-center">
+                <img class="today-placeholder" src="./Assets/images/weather-placeholder.png">
+                <div class="column">
+                <p class="today-tempature"></p>
+                <p class="today-wind"></p>
+                <p class="today-humidity"></p>
+                </div>
+            </div>
+        </div>
+    
+    
+    </main>
 
 
 <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
