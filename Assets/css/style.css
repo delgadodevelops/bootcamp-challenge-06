@@ -1,10 +1,8 @@
+/* Helper Elements */
 form {
     display: flex;
-    
-}
+    margin-left: 100px;
 
-button {
-    margin-left: 70px;
 }
 
 .column {
@@ -13,7 +11,77 @@ button {
 
 }
 
+hr {
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+li {
+    list-style-type: none;
+    
+}
+
+button {
+    margin-left: 70px;
+
+}
+
+#search-align {
+    text-align: center;
+
+}
+
+#search-list a {
+    text-decoration: none;
+
+}
+
+/* Main (Today Forecast) */
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+}
+
 img.today-placeholder {
-    width: 200px;
-    height: auto;
+    width: auto;
+    height: 250px;
+}
+
+
+#current-weather, .today-tempature, .today-wind, .today-humidity {
+    width: auto;
+    font-weight: bold;
+
+}
+
+#current-city {
+    font-weight: bolder;
+    font-size: 30px;
+
+
+}
+
+/* 5 Day Forecast Cards */
+.card {
+    margin: 0 0 20px 0;
+    border: 3px solid var(--dark);
+    border-radius: var(--border-radius);
+    background-color: var(--bs-card-cap-bg);
+    border-bottom: var(--bs-card-border-width) solid var(--bs-card-border-color);
+}
+  
+.card-header {
+    padding: 2.5%;
+    border-radius: calc(0.18rem - 1px) calc(0.18rem - 1px) 0 0;
+}
+  
+.card-body {
+    padding: 2.5%;
+    
+}
+
+.card-placeholder-0, .card-placeholder-1, .card-placeholder-2, .card-placeholder-3, .card-placeholder-4{
+    width: auto;
+    height: 100px;
 }
