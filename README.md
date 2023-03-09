@@ -11,4 +11,4 @@ Check out the Weather Dashboard here : https://ddelgado25.github.io/bootcamp-cha
 
 Preview of Weather Dashboard Application
 
-![Sample Website Preview](./assets/images/Dashboard-demo.png)
+![Sample Website Preview](./Assets/images/Dashboard-demo.png)
